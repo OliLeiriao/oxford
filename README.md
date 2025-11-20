@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+# Oxford ♥️♠️♦️♣️
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Setup
+- The game is played with a single deck of 52 cards for every 4 players participating. 
+	- For example, if there are 6 players, you'll need two decks.
+- Each player is dealt 6 cards (3 faced down, covered by 3 faced up) on the table in front of them visible to everyone, and 3 cards in their hand.
+- Before the start of the game, each player may choose to replace any of their three faceup table cards with any of the cards in their hand.
+- Once all players are ready, the game begins.
+# Gameplay
+- A random player goes first. They must play a card from their hand to the pile, usually the lowest ranked card that is not a special card. They may only play a single rank of card per turn, but multiple of the same rank is allowed (ex. if they have two 4s in their hand, they may play both). The player then draws cards from the deck until they have three cards in their hand.
+- The next player must either:
+	- Play a card/cards of the same rank as the one at top of the pile, and then draw until they have three cards.
+	- Play a card/cards of a single rank that is higher than the one at the top of the pile, and then draw until they have three cards. 
+	- Play a special card, and then draw until they have three cards..
+	- Pick up to the pile into their hand, and play a card/cards to begin the new pile.
+- Once a player has played all the cards from their hand, and there is no more deck to draw from, they pick up the three face up cards in front of them to their hands, and must continue to play with those.
+- Once a player has played all the cards from their hand including the three face up cards they picked up in front of them, they must draw and play one of the three faced down cards. If the card is not a legal move to the top of the pile, the player is forced to pick up the pile and add it to their hand, along with the card.
+### Special Cards
+- There are a few cards with special effects to the pile. All except for the number 7 can be played atop any pile. The 7 is the only special card that must still be played as a legal move (atop a pile whose top card is less than or equal to 7).
+	- 2: Resets the count of the pile. The pile of cards remains, however the following player can play any rank.
+	- 3: The player of a 3 chooses another player, and forces that player to pickup the pile. If that chosen player also has a 3 in their hand, they may play it in response, in which case the first player picks up the pile instead. The player who picks up the pile then begins the new pile.
+	- 7: The next player must play a card/cards lower in rank than 7, rather than higher. The next player may alternatively play more seven(s), in which case the requirement is passed on to the next subsequent player. Once a subsequent player plays a card lower than 7, or a special card that is not a 9, the normal rules of play resume.
+	- 9: A 9 can be played anytime, it's as if the player played an invisible card. All the requirements from below the 9 are carried over to the next subsequent player.
+	- 10: The pile is discarded. The player of a 10 draws cards from the deck until they have three cards in their hand, and then plays to begin a new pile.
+# Other Mechanics
+- The pile is cleared if ever the top four cards are of the same rank (regardless of who played them).
+- If every player in the game picks up the pile and plays the same card back down, the game ends in a draw.
+- For purposes of rank, Ace is the highest rank.
+# Winning
+- The winner of the game is the first player to be rid of all the cards in their hand and all the cards in front of them.
 
-## Get started
+This is an [Expo](https://expo.dev) project.
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+By Oliver L

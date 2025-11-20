@@ -1,0 +1,165 @@
+--- Starting 3-player simulation ---
+Initial deck cards: 25
+Player 0 hand: [{"suit":"hearts","rank":"2"},{"suit":"clubs","rank":"A"},{"suit":"clubs","rank":"6"}]
+Player 0 faceUp: [{"suit":"spades","rank":"2"},{"suit":"hearts","rank":"6"},{"suit":"spades","rank":"K"}]
+Player 0 faceDown: [{"suit":"hearts","rank":"K"},{"suit":"spades","rank":"9"},{"suit":"diamonds","rank":"Q"}]
+Player 1 hand: [{"suit":"hearts","rank":"J"},{"suit":"hearts","rank":"8"},{"suit":"diamonds","rank":"8"}]
+Player 1 faceUp: [{"suit":"hearts","rank":"4"},{"suit":"diamonds","rank":"3"},{"suit":"spades","rank":"10"}]
+Player 1 faceDown: [{"suit":"diamonds","rank":"K"},{"suit":"spades","rank":"5"},{"suit":"hearts","rank":"A"}]
+Player 2 hand: [{"suit":"clubs","rank":"10"},{"suit":"diamonds","rank":"9"},{"suit":"diamonds","rank":"10"}]
+Player 2 faceUp: [{"suit":"clubs","rank":"3"},{"suit":"clubs","rank":"5"},{"suit":"spades","rank":"6"}]
+Player 2 faceDown: [{"suit":"spades","rank":"A"},{"suit":"diamonds","rank":"5"},{"suit":"clubs","rank":"4"}]
+Turn 1: Player 1 played 2x 8. Played: 8H,8D
+   Pile: 8H|8D
+Turn 2: Player 2 played special 10. Played: 10C
+   Pile: (empty)
+Turn 3: Player 0 played 1x 6. Played: 6C
+   Pile: 6C
+Turn 4: Player 1 played 1x J. Played: JH
+   Pile: 6C|JH
+Turn 5: Player 2 played 1x J. Played: JS
+   Pile: 6C|JH|JS
+Turn 6: Player 0 played 1x A. Played: AC
+   Pile: 6C|JH|JS|AC
+Turn 7: Player 1 played 1x A. Played: AD
+   Pile: 6C|JH|JS|AC|AD
+Turn 8: Player 2 played special 10. Played: 10D
+   Pile: (empty)
+Turn 9: Player 0 played 1x 4. Played: 4S
+   Pile: 4S
+Turn 10: Player 1 played 1x 4. Played: 4D
+   Pile: 4S|4D
+Turn 11: Player 2 played 1x 8. Played: 8C
+   Pile: 4S|4D|8C
+Turn 12: Player 0 played 1x Q. Played: QH
+   Pile: 4S|4D|8C|QH
+Turn 13: Player 1 played special 2. Played: 2D
+   Pile: 4S|4D|8C|QH|2D
+Turn 14: Player 2 played 1x J. Played: JD
+   Pile: 4S|4D|8C|QH|2D|JD
+Turn 15: Player 0 played special 2. Played: 2H
+   Pile: 4S|4D|8C|QH|2D|JD|2H
+Turn 16: Player 1 played 1x 6. Played: 6D
+   Pile: 4S|4D|8C|QH|2D|JD|2H|6D
+Turn 17: Player 2 played 1x K. Played: KC
+   Pile: 4S|4D|8C|QH|2D|JD|2H|6D|KC
+Turn 18: Player 0 played special 9. Played: 9C
+   Pile: 4S|4D|8C|QH|2D|JD|2H|6D|KC|9C
+Turn 19: Player 1 played special 9. Played: 9H
+   Pile: 4S|4D|8C|QH|2D|JD|2H|6D|KC|9C|9H
+Turn 20: Player 2 played special 9. Played: 9D
+   Pile: 4S|4D|8C|QH|2D|JD|2H|6D|KC|9C|9H|9D
+Turn 21: Player 0 played special 2. Played: 2C
+   Pile: 4S|4D|8C|QH|2D|JD|2H|6D|KC|9C|9H|9D|2C
+Turn 22: Player 1 played 1x 8. Played: 8S
+   Pile: 4S|4D|8C|QH|2D|JD|2H|6D|KC|9C|9H|9D|2C|8S
+Turn 23: Player 2 played 1x Q. Played: QS
+   Pile: 4S|4D|8C|QH|2D|JD|2H|6D|KC|9C|9H|9D|2C|8S|QS
+Turn 24: Player 0 played special 3. Played: 3H
+   Pile: (empty)
+Turn 25: Player 1 played 2x 4. Played: 4S,4D
+   Pile: 4S|4D
+Turn 26: Player 2 played 1x 5. Played: 5H
+   Pile: 4S|4D|5H
+Turn 27: Player 0 played 1x Q. Played: QC
+   Pile: 4S|4D|5H|QC
+Turn 28: Player 1 played 2x Q. Played: QH,QS
+   Pile: 4S|4D|5H|QC|QH|QS
+Turn 29: Player 2 played special 10. Played: 10H
+   Pile: (empty)
+Turn 30: Player 0 played special 7. Played: 7C
+   Pile: 7C
+Turn 31: Player 1 played 1x 6. Played: 6D
+   Pile: 7C|6D
+Turn 32: Player 2 played special 7. Played: 7H
+   Pile: 7C|6D|7H
+Turn 33: Player 0 played special 7. Played: 7D
+   Pile: 7C|6D|7H|7D
+Turn 34: Player 1 played special 2. Played: 2D
+   Pile: 7C|6D|7H|7D|2D
+Turn 35: Player 2 played 1x 5. Played: 5C
+   Pile: 7C|6D|7H|7D|2D|5C
+Turn 36: Player 0 played 1x 6. Played: 6H
+   Pile: 7C|6D|7H|7D|2D|5C|6H
+Turn 37: Player 1 played 2x 8. Played: 8C,8S
+   Pile: 7C|6D|7H|7D|2D|5C|6H|8C|8S
+Turn 38: Player 2 played special 3. Played: 3C
+   Pile: (empty)
+Turn 39: Player 0 played 1x 5. Played: 5C
+   Pile: 5C
+Turn 40: Player 1 played 2x J. Played: JC,JD
+   Pile: 5C|JC|JD
+Turn 41: Player 2 picked up pile. Hand now: 6S,5C,JC,JD
+Turn 41: Player 2 after pickup played 1x 5. Played: 5C
+   Pile: 5C
+Turn 42: Player 0 played 2x 6. Played: 6D,6H
+   Pile: 5C|6D|6H
+Turn 43: Player 1 played 1x K. Played: KC
+   Pile: 5C|6D|6H|KC
+Turn 44: Player 2 picked up pile. Hand now: 6S,JC,JD,5C,6D,6H,KC
+Turn 44: Player 2 after pickup played 1x 5. Played: 5C
+   Pile: 5C
+Turn 45: Player 0 played 2x 8. Played: 8C,8S
+   Pile: 5C|8C|8S
+Turn 46: Player 1 played special 2. Played: 2H
+   Pile: 5C|8C|8S|2H
+Turn 47: Player 2 played 3x 6. Played: 6S,6D,6H
+   Pile: 5C|8C|8S|2H|6S|6D|6H
+Turn 48: Player 0 played 1x K. Played: KS
+   Pile: 5C|8C|8S|2H|6S|6D|6H|KS
+Turn 49: Player 1 played special 2. Played: 2C
+   Pile: 5C|8C|8S|2H|6S|6D|6H|KS|2C
+Turn 50: Player 2 played 2x J. Played: JC,JD
+   Pile: 5C|8C|8S|2H|6S|6D|6H|KS|2C|JC|JD
+Turn 51: Player 0 played special 2. Played: 2S
+   Pile: 5C|8C|8S|2H|6S|6D|6H|KS|2C|JC|JD|2S
+Turn 52: Player 1 played special 9. Played: 9C
+   Pile: 5C|8C|8S|2H|6S|6D|6H|KS|2C|JC|JD|2S|9C
+Turn 53: Player 2 played 1x K. Played: KC
+   Pile: 5C|8C|8S|2H|6S|6D|6H|KS|2C|JC|JD|2S|9C|KC
+Turn 54: Player 0 played special 2. Played: 2D
+   Pile: 5C|8C|8S|2H|6S|6D|6H|KS|2C|JC|JD|2S|9C|KC|2D
+Turn 55: Player 1 played special 9. Played: 9H
+   Pile: 5C|8C|8S|2H|6S|6D|6H|KS|2C|JC|JD|2S|9C|KC|2D|9H
+Turn 56: Player 2 revealed facedown and played 4C
+Turn 57: Player 0 played special 7. Played: 7C
+   Pile: 5C|8C|8S|2H|6S|6D|6H|KS|2C|JC|JD|2S|9C|KC|2D|9H|4C|7C
+Turn 58: Player 1 played special 9. Played: 9D
+   Pile: 5C|8C|8S|2H|6S|6D|6H|KS|2C|JC|JD|2S|9C|KC|2D|9H|4C|7C|9D
+Turn 59: Player 2 revealed facedown and played 5D
+Turn 60: Player 0 played special 7. Played: 7H
+   Pile: 5C|8C|8S|2H|6S|6D|6H|KS|2C|JC|JD|2S|9C|KC|2D|9H|4C|7C|9D|5D|7H
+Turn 61: Player 1 played special 7. Played: 7S
+   Pile: 5C|8C|8S|2H|6S|6D|6H|KS|2C|JC|JD|2S|9C|KC|2D|9H|4C|7C|9D|5D|7H|7S
+Turn 62: Player 2 revealed facedown and picked up pile
+Turn 63: Player 0 played special 7. Played: 7D
+   Pile: 7D
+Turn 64: Player 1 played special 3. Played: 3S
+   Pile: (empty)
+Turn 65: Player 2 played 1x 4. Played: 4C
+   Pile: 4C
+Turn 66: Player 0 played special 3. Played: 3C
+   Pile: (empty)
+Turn 67: Player 1 played 1x 4. Played: 4C
+   Pile: 4C
+Turn 68: Player 2 played 2x 5. Played: 5C,5D
+   Pile: 4C|5C|5D
+Turn 69: Player 0 revealed facedown and played QD
+Turn 70: Player 1 played special 3. Played: 3H
+   Pile: (empty)
+Turn 71: Player 2 played 1x 4. Played: 4C
+   Pile: 4C
+Turn 72: Player 0 revealed facedown and played 9S
+Turn 73: Player 1 played special 3. Played: 3C
+   Pile: (empty)
+Turn 74: Player 2 played 1x 4. Played: 4C
+   Pile: 4C
+Turn 75: Player 0 revealed facedown and played KH
+
+Game over. Winner: Player 0
+Turns: 75
+Final pile: 4C|KH
+Player 0 remaining: hand= faceUp= faceDown=0
+Player 1 remaining: hand= faceUp=4H,3D,10S faceDown=3
+Player 2 remaining: hand=AS,8C,8S,2H,6S,6D,6H,KS,2C,JC,JD,2S,9C,KC,2D,9H,7C,9D,7H,7S,7D,3S,5C,5D,QD,3H,9S,3C faceUp= faceDown=0
+Log saved to: C:\Users\Oliver\OneDrive\Oxford\test\logs\simulate_game_3players_2025-11-20_02-59-37.log
